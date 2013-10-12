@@ -48,6 +48,18 @@ body {
 
 }
 
+main {
+     float: left;
+     width: 620px;
+}
+
+aside {
+     width: 300px;
+     float: left;
+     background-color: white;
+     padding: 10px 0px 0px 10px;
+}
+
 h1 {
      text-indent: 100%;
      white-space: nowrap;
@@ -79,7 +91,8 @@ img {
      float: left;
      margin-right: 10px;
 }
-
-
+p {
+     float: left;
+}
 
 

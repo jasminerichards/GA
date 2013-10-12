@@ -1,0 +1,41 @@
+.container {
+	width: 800px;
+	margin: 10px auto;
+	background: #CCC;
+}
+
+.box {
+	width: 100px; 
+	height: 100px;
+	margin: 10px;
+	padding: 10px;
+	background: blue;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.clearfix:after { /* expands collapsed parent to clear its height past its floating children */
+ 
+  	content: "."; /* adds html text of period symbol (:after) all opther children inside the parent with is .clear:after class applied to it. */
+	
+	display: block; /* set newly created content: to display block */
+	
+	clear: both; /* sets the '.' content to clear past all of the floating children giving a height reference. */
+	
+	visibility: hidden; /* make the '.' content invisible. */
+	
+	line-height: 0; /* make sure it has no text line-height */
+
+	height: 0; /* make sue it has no physical height */
+}
+
