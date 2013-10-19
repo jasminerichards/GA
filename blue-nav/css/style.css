@@ -4,13 +4,108 @@
 /*        GENERAL             *
 /*****************************/	
 
-
-
-
+body {
+	background-color: #AEBFD4;
+}
 
 /*****************************/		
 /*  CSS SPRITE NAVIGATION     *
 /*****************************/	
 	
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+nav {
+	width: 960px;
+	margin-left: 220px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+nav ul {
+	padding: 0;
+}
+
+li {
+	float: left;
+	width: 190px;
+	margin: 0 4px;
+	height: 40px;
+}
+
+nav ul li a {
+	display: block;
+	height: 60px;
+	vertical-align: middle;
+	text-indent: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background: url("../images/menu-sprite.jpg") no-repeat; 
+    margin-right: 15px;
+}
+
+nav ul li.home a {
+	width: 115px;
+	background-position: -5px -5px;
+}
+
+nav ul li.about a {
+	width: 120px;
+	background-position: -125px -5px;}
+
+nav ul li.contact a {
+	width: 160px;
+	background-position: -250px -5px;
+}
+
+nav ul li.home a:hover {
+	background-position: -5px -75px;
+}
+
+nav ul li.about a:hover {
+	background-position:;
+}
+
+nav ul li.contact a:hover {
+	background-position:;
+}
+
+nav ul li.home a.active {
+	background-position:;
+}
+
+nav ul li.about a..active {
+	background-position:;
+}
+
+nav ul li.contact a.active {
+	background-position:;
+}
 
 	
+#container {
+	background-color: white;
+	color: black; 
+	width: 800px;
+	height: 90px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+
