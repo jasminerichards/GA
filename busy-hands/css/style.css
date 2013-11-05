@@ -130,8 +130,25 @@ li.rss a {
      display: block;
 }
 
-#home-boxes ul li{
-     float: left;
-     width: 250px;
-     margin: 20px;   
+#home-boxes ul li {
+     width: 285px;
+     margin: 20px 20px 20px 0px;  
 }
+
+nav ul li a {
+     background-color: black;
+     display: block;
+     text-align: left;
+     color: white;
+     text-decoration: none;
+     font-size: 18px;
+     vertical-align: middle;
+     padding: 13px 30px 30px 30px;
+
+#footer {
+     background: #000;
+     height: 20px; 
+}
+
+
+

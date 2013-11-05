@@ -1,0 +1,123 @@
+/* CSS Box Aesthetics */
+body { 
+
+	background: #fff url('images/vertical-fade.png') repeat-x fixed;
+
+	/*
+	images/vertical-fade.png
+	*/
+}
+
+
+.box {
+
+	float: left;
+	width: 200px;
+	height: 200px;
+	padding: 20px;
+	margin: 20px;
+	color: white;
+	font-size: 20px;
+	background: #ccc;
+}
+
+.bgimg1 {
+
+	background: url('images/small-black-stripe.gif');
+	/*
+	images/small-black-stripe.gif
+	*/
+}
+
+.bgimg2 {
+
+	background: url('images/storm2.jpg');
+	/*
+	images/storm2.jpg
+	*/
+}
+
+.bgimg3 {
+
+	background: url('images/horizontal-fade.png') repeat-y -200px 0;
+/*	images/horizontal-fade.png
+*/
+}
+
+.bgimg4 {
+
+	background: url('images/storm2.jpg') no-repeat center center;
+	/*
+	images/storm2.jpg
+	*/
+}
+
+
+.bgimg5 {
+
+	background: url('images/spectrumofthesky-1600x1200.jpg') no-repeat;
+	background-size: cover;
+	/*
+	images/spectrumofthesky-1600x1200.jpg
+	*/
+
+}
+
+.bgimg6 {
+
+	background: url('images/dark-tile.gif');
+/*	images/dark-tile.gif
+*/	
+}
+
+.bgimg7 {
+
+background: url('images/armored.gif');
+/*	images/armored.gif
+*/	
+}
+
+/*Opacity*/
+.opacity {
+	opacity: 0.2; /* CSS 3 */
+	-moz-opacity: 0.2; /* Firefox */
+	-khtml-opacity: 0.2; /* Safari, Chrome */
+	filter: alpha(opacity=20); /* IE 5 - 8 */
+	
+}
+
+/*Rounded Corners*/
+.rounded {
+	border-radius: 20px; /* CSS3 */
+	-moz-border-radius: 20px; /* Firefox */
+ 	-webkit-border-radius: 20px; /* Safari, Chrome */
+}
+
+/*Box Shadow*/
+.shadow {
+	box-shadow: 5px 5px 20px #888; /* CSS 3 */
+	-moz-box-shadow: 5px 5px 20px #888; /* Firefox */
+	-webkit-box-shadow: 5px 5px 20px #888;/* Safari, Chrome */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#888888')"; /* For IE 8 */
+	
+
+	/*
+	see info at: http://www.css3.info/preview/box-shadow/
+	*/
+}
+
+/*Text Shadow*/
+.simple_shadow_text {
+	text-shadow: 1px 1px 2px black;
+
+}
+
+.cool_shadow_text {
+	text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+
+	/*
+	see info at: https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+	*/
+}
+
+
