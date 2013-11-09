@@ -1,0 +1,40 @@
+.facebook-active, .facebook, .linkedin-active, .linkedin, .twitter-active, .twitter{
+	background: url(sprites.png) no-repeat;
+}
+
+.facebook-active{
+	background-position: -50px -50px ;
+	width: 48px;
+	height: 48px;
+}
+
+.facebook{
+	background-position: -50px 0;
+	width: 48px;
+	height: 48px;
+}
+
+.linkedin-active{
+	background-position: 0 -50px ;
+	width: 48px;
+	height: 48px;
+}
+
+.linkedin{
+	background-position: 0 0;
+	width: 48px;
+	height: 48px;
+}
+
+.twitter-active{
+	background-position: -100px -50px ;
+	width: 48px;
+	height: 48px;
+}
+
+.twitter{
+	background-position: -100px 0;
+	width: 48px;
+	height: 48px;
+}
+

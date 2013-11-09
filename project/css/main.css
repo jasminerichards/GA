@@ -265,14 +265,14 @@ textarea {
     thead {
         display: table-header-group; /* h5bp.com/t */
     }
-/*
+
     tr,
     img {
         page-break-inside: avoid;
     }
 
     img {
-        max-width: 100% !important;*/
+        max-width: 100% !important;
     }
 
     @page {
@@ -290,81 +290,6 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
-
-    #container {
-    margin: 30px;
-
-    }
-
-    #background {
-    background: url('../images/pattern_093.gif');
-    height: 404px;
-    width: 1007px;
-    margin: 0 auto;
-
-    }
-
-    #footer {
-    height: 150px;
-    }
-
-    h1 {
-    font-family: "futura", pt;
-    font-size: 40px;
-    text-transform: uppercase;
-    color: #2F4F4F;
-    padding-top: 30px;
-    }
-
-    #socialmedia {
-    margin-top: 15px;
-    padding: 0px;
-    }
-
-    #socialmedia ul li a {
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    display: block;
-    height: 60px;
-    width: 60px;
-    background-image: url('../images/socialNav.png');
-    float: left;
-    background-position-y: 60px;
 }
 
-    #socialmedia ul li a:hover {
-    background-position-y: -4px;
-}
-
-    li.facebook a {
-    background-position-x: 130px;
-}
-
-    li.twitter a {
-    background-position-x: 190px;
-}
-
-
-    nav {
-    font-family: "futura", pt;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #2F4F4F;
-    }
-
-    nav ul {
-    width: 940px; 
-    text-decoration: none;
-    text-align; center; 
-
-    }
-
-    nav ul li {
-    width: 100px;
-    display: block;
-    margin: 0 auto;
-    }
-
-
-
+   

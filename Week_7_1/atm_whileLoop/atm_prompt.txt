@@ -1,0 +1,5 @@
+/*
+Our atm is not very efficient. What if our user wants to make more than one deposit, or deposit and then withdraw? 
+Re-write the atm_conditional so that a user can continue to process transactions until they decide to quit?
+
+*/

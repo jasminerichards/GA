@@ -1,0 +1,111 @@
+/* GLOBAL*/
+
+a {
+    text-decoration: none;
+}
+
+
+/*TYPO*/
+
+
+    h1 {
+    font-family: "futura", pt;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #2F4F4F;
+    padding-top: 30px;
+    }
+
+    h2 {
+    font-family: "futura", pt;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2F4F4F;
+    text-align: center;
+    }
+
+    p {
+    text-align: center;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 18px;
+    color: #2F4F4F;
+    padding-top: 10px;
+    }
+
+/*NAV*/
+
+
+    nav {
+    font-family: "futura", pt;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #2F4F4F;
+    }
+
+    nav ul {
+        text-decoration: none;
+    }
+
+    nav ul li a {
+    display: block;
+    float: left;
+    width: 110px;
+    padding: 20px 20px 40px 20px;
+    }
+
+
+/*SOCIAL MEDIA*/
+
+    #socialmedia {
+    margin-top: 15px;
+    }
+
+    #socialmedia ul li a {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    height: 48px;
+    width: 48px;
+    background-image: url('../images/sprites.png');
+    float: left;
+    background-position-y: 0px;
+}
+
+    #socialmedia ul li a:hover {
+    background-position-y: -50px;
+}
+
+    li.facebook a {
+    background-position-x: -50px;
+}
+
+    li.twitter a {
+    background-position-x: -100px;
+}
+
+
+/*HOME PAGE BACKGROUND*/
+
+
+  #background {
+    /*background: url('../images/pattern_093.gif');
+    height: 337px;
+    width: 1007px;*/
+    margin: 0 auto;
+    float: left;
+
+    }
+
+    #footer {
+    height: 150px;
+    }
+
+/*PROJECT IMAGES*/
+
+    .pictures {
+    text-align: center;
+    }
+
+
+
