@@ -1,0 +1,7 @@
+Let's work on one of our previous HTML/CSS exercises. Remember, the Page Layout Exercise? Make a copy (copy of what?) so we can create an interactive web page that will take information from the user, and display it to the browser.
+
+This brings our ATM account info to the browser. 
+
+Take a look at the screenshot png file, in this folder. You will recreate this file (css styling is up to you) by coping your atm_objects.js file from the functions and objects lesson, over to your new page layout folder. 
+
+Its time for you to start thinking about how to build your site with html/css and js. There are no step by step instructions for this exercise., change any file in the page layout folder and atm_objects.js. Think about how you can accomplish this task and give it a try.
