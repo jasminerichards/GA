@@ -1,0 +1,29 @@
+body {
+	font-size: 16px/1.2;
+	font-family: "Helvetica", sans-serif;
+	background-color: #DDD;
+}
+
+#container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 10px;
+	box-shadow: 5px 5px 3px #888;
+	background-color: #FFF;
+}
+
+span {
+	display: block;
+	font-size: 2em;
+}
+.fizz {
+	color: green;
+}
+
+.buzz {
+	color: red;
+}
+
+.fizzbuzz {
+	color: blue;
+}

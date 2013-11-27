@@ -1,0 +1,257 @@
+/* GLOBAL*/
+
+a {
+    text-decoration: none;
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+     clear: both;
+}
+
+/*HEADER*/
+
+h1 a {
+    background: url('../images/logo.jpg') no-repeat;
+    width: 95px;
+    height: 120px;
+    margin: 0 auto;
+    display: block; 
+
+    /* image replacment technique */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.horizontalLine{
+    clear:both;
+    width:100%;
+    background-color: black;
+    height:1.5px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+.horizontalLine2{
+    clear:both;
+    width:100%;
+    background-color: black;
+    height:2px;
+    margin-top:80px;
+   /* margin-bottom:60px;*/
+}
+
+/*TYPO*/
+
+
+    h1 {
+    padding-top: 30px;
+    font-family: "futura", pt;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    text-align: left;
+    }
+
+    h2 {
+    font-family: "futura", pt;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    }
+
+    p {
+    text-align: center;
+    font-family: "futura", pt;
+    font-size: 14px;
+    color: black;
+    }
+
+/*NAV*/
+
+
+    nav {
+    font-family: "futura", pt;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #2F4F4F;
+    }
+
+    nav ul {
+        text-decoration: none;
+    }
+
+    nav ul li a {
+    display: block;
+    float: left;
+    width: 110px;
+    padding: 20px 20px 40px 20px;
+    }
+
+
+/*MAIN*/
+#box-border {
+    border-bottom: 2px solid black;
+}
+
+
+/*SOCIAL MEDIA*/
+
+    #socialmedia {
+    margin-bottom: 60px;
+    margin-top: 80px;
+    }
+
+    #socialmedia ul li a {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    height: 48px;
+    width: 48px;
+    background-image: url('../images/sprites.png');
+    float: left;
+    background-position-y: 0px;
+}
+
+    #socialmedia ul li a:hover {
+    background-position-y: -50px;
+}
+
+    li.facebook a {
+    background-position-x: -50px;
+}
+
+    li.twitter a {
+    background-position-x: -100px;
+}
+
+
+    #footer {
+    height: 150px;
+}
+
+/*PROJECT IMAGES*/
+
+.image-container {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    border: 2px solid #CCC;
+}
+
+.pictures {
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+/*.button {
+    position: absolute;    
+    right: 10px;
+    bottom: 10px;
+}*/
+
+button {
+    position: absolute;    
+    color: #FFFFFF;
+    right: 10px;
+    bottom: 10px;
+    width:160px;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    background-color: #000000;
+}
+
+/*FORM*/
+
+input {
+    margin: 30px 0px 0px 0px;
+
+}
+
+input#user_enquiry {
+    height: 250px;
+    width: 215px;
+}
+
+
+
+/*/*RESPONSIVENESS*/
+
+@media only screen and (max-width: 767px) {
+
+    body {
+        width: 252px;
+        padding: 32px 34px 60px;
+    }
+
+    nav ul li a {
+      display: none;
+      margin: 0;
+    }
+
+     img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    }
+
+/*
+ Wide Mobile Layout: 480px.
+ * Gutters: 24px.
+ * Outer margins: 22px.
+ * Inherits styles from: Default Layout, Mobile Layout.*/
+ 
+
+@media only screen and (min-width: 465px) and (max-width: 767px) {
+
+    body {
+        width: 436px;
+        padding: 50px 22px 48px;
+    }
+
+    
+    nav ul li a {
+      display: none;
+      margin: 0;
+    }  
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    }
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+    body {
+        width: 436px;
+        padding: 50px 22px 48px;
+    }
+
+    
+    nav ul li a {
+      display: none;
+      margin: 0;
+    }  
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    }
