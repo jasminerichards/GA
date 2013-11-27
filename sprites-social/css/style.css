@@ -1,0 +1,31 @@
+h1 {
+	font-size: 36px;
+}
+
+#socialmedia ul li a {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	display: block;
+	height: 60px;
+	width: 60px;
+	background-image: url('../images/socialNav.png');
+	float: left;
+	background-position-y: 60px;
+}
+
+#socialmedia ul li a:hover {
+	background-position-y: -4px;
+}
+
+li.facebook a {
+	background-position-x: 130px;
+}
+
+li.twitter a {
+	background-position-x: 190px;
+}
+
+li.rss a {
+	background-position-x: 70px;
+}

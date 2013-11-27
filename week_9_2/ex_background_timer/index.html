@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Background Image Change on every 5sec using Jquery</title>
+<style type="text/css">
+body {
+	margin:0;
+	padding:0;
+	width: 100%;
+}
+.demo-ad-top{
+	margin:20px 0;
+}
+.gradient {
+	background-image: -webkit-gradient(  linear,  left bottom,  left top,  color-stop(0.28, rgb(255,201,116)),  color-stop(0.64, rgb(228,143,10)) );
+	background-image: -moz-linear-gradient(  center bottom,  rgb(255,201,116) 28%,  rgb(228,143,10) 64% );
+	width:300px;
+	height:150px;
+	padding:5px;
+}
+
+h1 {
+	font:bold 14px/1.5em "Trebuchet MS", Trebuchet, Arial, Verdana, Sans-serif;
+	text-transform:uppercase;
+}
+div.background {
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:-1;
+}
+div.background img {
+	position:fixed;
+	list-style: none;
+	left:0px;
+	top:0px;
+}
+div.background ul li.show {
+	z-index:500
+}
+.content {
+	width:900px;
+	margin:20px auto;
+	background:#fff;
+	padding:30px;
+}
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript">
+
+function thebackground() {
+$('div.background img').css({opacity: 0.0});
+$('div.background img:first').css({opacity: 1.0});
+setInterval('change()',5000);
+}
+
+function change() {
+var current = ($('div.background img.show')? $('div.background img.show') : $('div.background img:first'));
+if ( current.length == 0 ) current = $('div.background img:first');
+var next = ((current.next().length) ? ((current.next().hasClass('show')) ? $('div.background img:first') :current.next()) : $('div.background img:first'));
+next.css({opacity: 0.0})
+.addClass('show')
+.animate({opacity: 1.0}, 1000);
+current.animate({opacity: 0.0}, 1000)
+.removeClass('show');
+};
+
+$(document).ready(function() {
+thebackground();	
+$('div.background').fadeIn(1000); // works for all the browsers other than IE
+$('div.background img').fadeIn(1000); // IE tweak
+});
+
+</script>
+</head>
+<body>
+<div class="background"> <img src="millenniumBridge.jpg" width="1400" height="819" alt="pic1" /> <img src="bg_trinity.jpg" width="1401" height="934" alt="pic2" /> <img src="bg_clare_college.jpg" width="1400" height="934" alt="pic3" /></div>
+<div class="content">
+<div class="demo-ad-top">
+<script type="text/javascript"><!--
+google_ad_client = "pub-6948325743993832";
+/* 728x90, created 12/26/10 */
+google_ad_slot = "9582946502";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+  <h1>Go back to <a href="http://www.infopitcher.com">Tutorial</a></h1>
+
+  <div class="demo-ad-top">
+<script type="text/javascript"><!--
+google_ad_client = "pub-6948325743993832";
+/* post-ad */
+google_ad_slot = "4743378107";
+google_ad_width = 336;
+google_ad_height = 280;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+</div>
+</body>
+</html>

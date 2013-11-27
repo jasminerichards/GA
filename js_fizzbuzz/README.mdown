@@ -1,0 +1,42 @@
+Build a page using HTML, CSS and JS which lets a user enter a number into a form field and then counts up from that number 100 times in spans, and adds the class:
+
+.fizz .buzz .fizzbuzz
+
+For multiples of 3, 5 and both, respectively.
+
+Variables: counter, chosenNumber
+
+Functions: isItFizz, isItBuzz
+
+Logic: 
+Capture the submit button
+-when user clicks
+-get chosenNumber from form field
+-save chosenNumber
+
+- start a loop (for 100)
+	- take current number
+	- isFizz? 
+		log fizz
+		isFizz = true
+	- isBuzz?
+		log buzz
+		isBuzz = true
+	if (isFizz && isBuzz)
+		- add span with class fizzbuzz
+	else if (isFizz)
+		-add span with class fizz
+	else if (isBuzz)
+		-ADD SPAN WITH CLASS BUZZ
+	else
+		-add span with number,no class
+	end loop
+
+
+
+
+
+
+
+
+

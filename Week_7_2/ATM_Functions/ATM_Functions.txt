@@ -1,0 +1,9 @@
+/*
+
+ATM: Functions
+
+We're going to make our ATM example application even more efficient.
+
+There are two distinct things happening in this application. Users are either making a withdrawal, or a deposit. 
+Lets break this logic into two functions. Only declare your balance, amount and response variables once.
+*/

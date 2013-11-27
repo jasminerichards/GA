@@ -1,0 +1,55 @@
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+nav {
+	width: 600px;
+	margin: 0 auto;
+}
+
+nav ul {
+	padding: 0;
+}
+
+li {
+	float: left;
+	width: 190px;
+	margin: 0 4px;
+	height: 40px;
+}
+
+nav ul li a {
+	background-color: #FF6666;
+	width: 190px;
+	display: block;
+	height: 40px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	vertical-align: middle;
+	padding-top: 13px;
+
+}
+
+nav ul li a:hover, a.active {
+	background-color: #FF2266;
+}
+
+
+
+
+
+
+

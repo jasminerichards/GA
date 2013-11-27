@@ -1,0 +1,102 @@
+/* BLUE NAVIGATION SITE */
+
+/*****************************/		
+/*        GENERAL             *
+/*****************************/	
+
+body {
+	background:#b6bec7 url('../images/bg-gradient.jpg') repeat-x top left;
+	font-family:arial, sans-serif;
+	margin:0; 
+	font-size:14px; 
+	color:#212121; 
+	line-height: 1.1; 
+	}
+	
+
+#container {  /* we center our container */
+	width:780px; 
+	margin: 30px auto; 
+	}
+
+.content {
+	background:#FFF;
+	display:block; 
+}
+		
+p { 
+	padding:20px 30px 20px 30px; 
+}
+
+.clear {
+	clear: both;
+}
+	
+/*****************************/		
+/*  CSS SPRITE NAVIGATION     *
+/*****************************/	
+	
+
+	
+nav li{
+	overflow: hidden; 
+	text-indent: -9999px;  /* this removes the actual HTML text so that we only have the image */
+	float: left; /* floast all of our LI elements left  */ 
+	margin-right: 20px; /* adds extra space to the right of each image */
+	}
+	
+		nav li a {
+			background:url('../images/menu-sprite.jpg') no-repeat; 
+			width:100%; 
+			height:100%; 
+			display:block; /* We make the "a" element block here so that we can give it form, and so that we can add a height and width */
+			}
+		
+		/* Home Button */
+		nav li.home {
+				width:115px; 
+				height:60px;
+				}
+	
+			nav li.home a{
+				background-position:-5px -5px;
+				}
+			nav li.home a:hover{
+				background-position:-5px -75px;
+				}
+			nav li.home a.selected{  /* The selected class is used once per page. The purpose is to show that this particular button is the page we are on */
+				background-position:-5px -145px;
+				}
+		
+		
+		/* About Button */
+		nav li.about{
+				width:120px; 
+				height:60px;
+				}
+			nav li.about a{
+				background-position:-125px -5px;
+				}
+			nav li.about a:hover{
+				background-position:-125px -75px;
+				}
+			nav li.about a.selected{
+				background-position:-125px -145px;
+				}
+		
+			
+			
+		/* Contact Button */
+		nav li.contact{
+				width:160px; 
+				height:60px;
+			}
+			nav li.contact a{
+				background-position:-250px -5px;
+			}
+			nav li.contact a:hover{
+				background-position:-250px -75px;
+			}
+			nav li.contact a.selected{
+				background-position:-250px -145px;
+			}
